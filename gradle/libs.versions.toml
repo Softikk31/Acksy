@@ -11,7 +11,7 @@ kotlin = "2.4.10"
 composeBom = "2026.02.01"
 
 [libraries]
-acksy-entities-android = { module = "com.github.Softikk31.AcksyEntities:acksy-entities-android", version.ref = "acksyEntitiesAndroid" }
+acksy-entities-jvm = { module = "com.github.Softikk31.AcksyEntities:acksy-entities-jvm", version.ref = "acksyEntitiesAndroid" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

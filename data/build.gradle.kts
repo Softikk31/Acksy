@@ -4,5 +4,5 @@ plugins {
 
 dependencies {
     implementation(project(":domain"))
-    implementation(libs.acksy.entities.android)
+    implementation(libs.acksy.entities.jvm)
 }
