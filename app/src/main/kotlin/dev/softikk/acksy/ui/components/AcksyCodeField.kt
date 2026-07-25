@@ -29,8 +29,7 @@ import dev.softikk.acksy.ui.theme.Dimens
 
 @Composable
 fun AcksyCodeField(
-    modifier: Modifier = Modifier,
-    state: TextFieldState
+    modifier: Modifier = Modifier, state: TextFieldState
 ) {
     AcksyTheme {
         val text = state.text.toString()
@@ -61,8 +60,8 @@ fun AcksyCodeField(
 
                         val shape = when (index) {
                             0 -> RoundedCornerShape(
-                                topEnd = Dimens.smallShape,
-                                bottomEnd = Dimens.smallShape,
+                                topEnd = Dimens.xsShape,
+                                bottomEnd = Dimens.xsShape,
                                 topStart = Dimens.mediumShape,
                                 bottomStart = Dimens.mediumShape
                             )
@@ -70,17 +69,17 @@ fun AcksyCodeField(
                             5 -> RoundedCornerShape(
                                 topEnd = Dimens.mediumShape,
                                 bottomEnd = Dimens.mediumShape,
-                                topStart = Dimens.smallShape,
-                                bottomStart = Dimens.smallShape
+                                topStart = Dimens.xsShape,
+                                bottomStart = Dimens.xsShape
                             )
 
                             else -> RoundedCornerShape(
-                                Dimens.smallShape
+                                Dimens.xsShape
                             )
                         }
                         Box(
                             modifier = Modifier
-                                .height(Dimens.heightButtonAndTextField)
+                                .height(Dimens.heightComponent)
                                 .weight(1f)
                                 .background(
                                     color = MaterialTheme.colorScheme.secondary, shape = shape
