@@ -4,17 +4,26 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 object Dimens {
-    val heightButtonAndTextField = 56.dp
+    val heightComponent = 56.dp
     val xButtonSize = 48.dp
     val shapeButtonAndTextField = 5.dp
 
-    val smallShape = 2.dp
+    val heightButtonGroup = 40.dp
+
+    val xsShape = 2.dp
+    val smallShape = 4.dp
     val mediumShape = 8.dp
+    val largeShape = 16.dp
+
+    val elevationShadow = 1.5.dp
 
     val iconTaskPadding = 13.dp
 
     val heightTask = 50.dp
 
+    val widthNavBar = 220.dp
+
+    val xsPadding = 2.dp
     val mediumPadding = 16.dp
 
     val widthBorder = 1.25.dp

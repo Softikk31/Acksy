@@ -25,7 +25,7 @@ fun AcksyTextButton(
 ) {
     Button(
         modifier = modifier
-            .height(Dimens.heightButtonAndTextField)
+            .height(Dimens.heightComponent)
             .widthIn(max = Dimens.maxWidthElement), colors = ButtonColors(
             containerColor = containerColor,
             contentColor = contentColor,
