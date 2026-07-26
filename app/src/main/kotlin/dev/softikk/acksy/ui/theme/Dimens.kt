@@ -23,6 +23,10 @@ object Dimens {
 
     val widthNavBar = 220.dp
 
+    val colorItemSize = 34.dp
+    val activeColorItemSize = 42.dp
+    val borderWidth = 2.dp
+
     val xsPadding = 2.dp
     val mediumPadding = 16.dp
 
