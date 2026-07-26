@@ -4,11 +4,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 object Dimens {
+    const val COUNTER_STATISTICS_ANIM_DURATION_MILLIS = 600
+    const val BUTTONS_GROUP_ANIM_DURATION_MILLIS = 400
+
     val heightComponent = 56.dp
     val xButtonSize = 48.dp
     val shapeButtonAndTextField = 5.dp
 
-    val heightButtonGroup = 40.dp
+    val heightAnimButtonsGroup = 40.dp
+    val heightButtonsGroup = 46.dp
 
     val xsShape = 2.dp
     val smallShape = 4.dp
@@ -28,6 +32,7 @@ object Dimens {
     val borderWidth = 2.dp
 
     val xsPadding = 2.dp
+    val smallPadding = 8.dp
     val mediumPadding = 16.dp
 
     val widthBorder = 1.25.dp

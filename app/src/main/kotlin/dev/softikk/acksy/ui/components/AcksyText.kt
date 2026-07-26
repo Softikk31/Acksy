@@ -12,7 +12,7 @@ import androidx.wear.compose.material.Text
 @Composable
 private fun AcksyText(
     modifier: Modifier = Modifier,
-    contentAlignment: Alignment,
+    contentAlignment: Alignment = Alignment.Center,
     text: String,
     style: TextStyle,
     color: Color
