@@ -42,7 +42,8 @@ dependencies {
     implementation(libs.androidx.compose.material)
     implementation(libs.androidx.navigation3.ui)
     implementation(libs.kotlinx.serialization.core)
-
+    implementation(libs.kotlinx.datetime)
+    implementation(libs.compose.calendar)
     implementation(libs.koin.android)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)

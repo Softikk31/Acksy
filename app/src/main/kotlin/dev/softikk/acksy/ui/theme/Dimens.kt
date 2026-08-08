@@ -4,8 +4,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 object Dimens {
-    const val COUNTER_STATISTICS_ANIM_DURATION_MILLIS = 600
-    const val BUTTONS_GROUP_ANIM_DURATION_MILLIS = 400
+    const val MEDIUM_ANIM_DURATION_MILLIS = 400
+    const val LARGE_DURATION_MILLIS = 600
 
     val heightComponent = 56.dp
     val xButtonSize = 48.dp
@@ -27,6 +27,8 @@ object Dimens {
 
     val widthNavBar = 220.dp
 
+    val heightDayOfWeek = 48.dp
+
     val colorItemSize = 34.dp
     val activeColorItemSize = 42.dp
     val borderWidth = 2.dp
@@ -38,6 +40,8 @@ object Dimens {
     val widthBorder = 1.25.dp
 
     val maxWidthElement = 400.dp
+
+    val sizeDayOfWeek = 45.dp
 
     val labelSmallFontSize = 11.sp
     val labelMediumFontSize = 12.sp

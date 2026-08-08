@@ -41,7 +41,7 @@ fun AcksyAnimButtonsGroup(
                 if (index == state) Dimens.largeShape else if (index == 0) Dimens.largeShape else Dimens.smallShape
             val endAnim =
                 if (index == state) Dimens.largeShape else if (index == (buttonsCount - 1)) Dimens.largeShape else Dimens.smallShape
-            val animationSpec: AnimationSpec<Dp> = tween(Dimens.BUTTONS_GROUP_ANIM_DURATION_MILLIS)
+            val animationSpec: AnimationSpec<Dp> = tween(Dimens.MEDIUM_ANIM_DURATION_MILLIS)
             val topStart by animateDpAsState(
                 startAnim, animationSpec = animationSpec
             )
